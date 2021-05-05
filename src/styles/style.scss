@@ -1,0 +1,114 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./lato.css";
+$TubeImg: url('../assets/images/TubeImg.png');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #000
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+}
+
+.title {
+    padding-top: 100px;
+    padding-bottom:70px;
+    text-align: center;
+}
+
+.title__main {
+    font-size: 32px;
+}
+
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.yellow {
+    color: #fcdb00;
+}
+
+
+/* Первый экран */
+
+.header {
+    background: #ffffff;
+    color: #010101;
+    padding-top:58px;
+    padding-bottom: 105px;
+}
+
+.menu {
+    margin-top:8px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    font-size: 18px;
+    color: #777777;
+    font-weight: 400;
+}
+
+.offer {
+    margin-top:117px;
+    background-image: $TubeImg;
+    background-size: cover;
+}
+
+.offer__title {
+    font-size:32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top:15px;
+    color: #555555;
+    width: 400px;
+}
+
+.icons__item {
+    margin-right:30px;
+}
+
+.icons__item a {
+    color: #000;
+    font-size: 42px;
+    transition: all 0.3s ease;
+}
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: #ff4800;
+}
+
+.ipad {
+    display: block;
+    margin: 60px auto 0;
+}
+
